@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.chat-box {
+  height: 70vh;
+  padding: 10px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.msg {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 8px;
+}
+
+.msg.user {
+  background: #199A8D;
+  color: white;
+  float: right;
+  clear: both;
+}
+
+.msg.ca {
+  background: #ececec;
+  color: black;
+  float: left;
+  clear: both;
+}
+
+.chat-input {
+  display: flex;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.chat-input button {
+  background: #199A8D;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  margin-left: 10px;
+}
